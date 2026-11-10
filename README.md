@@ -1,10 +1,31 @@
 # econ3916_midtermproject
 
-Congestion pricing was implemented on January 5, 2025, by the Metropolitan Transportation Authority (MTA) as a method to reduce the traffic gridlock south of 60th Street, also known as the Congestion Relief Zone (CRZ). Under the implemented rule, vehicles passing between 5am–9pm on weekdays and 9am–9pm on weekends will be subject to paying a toll to pass through certain crossings and bridges that enter the CRZ. These bridges include: Brooklyn Bridge, Holland Tunnel, Hugh L. Carey Tunnel, Lincoln Tunnel, Manhattan Bridge, Queensboro Bridge, Queens-Midtown Tunnel, and the Williamsburg Bridge. The goal of the policy was not only to decrease traffic volumes but also to encourage drivers to use public transportation, and the revenue collected from the congestion pricing is used to fund public transportation initiatives.
+## 1. Research Question
 
-My research question is to understand how congestion pricing impacts traffic volumes when you control for vehicle class, entry point, and day of the week. I focused on two of the tunnels, where congestion pricing was implemented: the Hugh L. Carey Tunnel and the Queens Midtown Tunnel. I want to understand how traffic volumes changed in NYC by measuring how many cars pass through the tunnels 6 months before and 6 months after congestion pricing was implemented. 
+Did the implementation of New York City's congestion pricing policy on January 5, 2025, reduce daily vehicle traffic volumes through the Hugh L. Carey Tunnel and Queens Midtown Tunnel?
 
-Conclusions: 
+My hypothesis is that congestion pricing is associated with a reduction in traffic volumes through these two tunnels.
+
+## 2. Data Source
+
+**Dataset:** MTA Bridges and Tunnels Hourly Crossings: Beginning 2019
+
+**Source:** New York State Open Data
+
+**URL:** [https://data.ny.gov/Transportation/MTA-Bridges-and-Tunnels-Hourly-Crossings-Beginning/ebfx-2m7v](https://data.ny.gov/Transportation/MTA-Bridges-and-Tunnels-Hourly-Crossings-Beginning/ebfx-2m7v/about_data)
+
+The analysis uses six months of data before and after January 5, 2025. The original MTA data was aggregated into daily traffic counts for two tunnels and four vehicle classes: cars, buses, trucks, and motorcycles.
+
+The cleaned dataset contains 2,920 observations, with no missing values.
+
+## 3. How to Run the Notebook
+
+1. Download the Jupyter notebook (`midterm_starter.ipynb`) and cleaned Excel dataset from this repository
+2. Open the notebook in Google Colab
+3. Upload the Excel dataset to the Colab session
+4. Run all cells in order using **Runtime → Run all**
+
+## 4. Headline Finding
 
 One of the main limitations of the analysis is that the regression results can help to establish correlation, not causality. Additionally, my dataset only includes the Hugh L. Carey Tunnel and the Queens Midtown Tunnel. It does not include other tunnels that are a part of New York City’s congestion pricing initiative, such as the Lincoln Tunnel and the Holland Tunnel. My results are limited in their scope and cannot be generalized to all changes to traffic entering Manhattan. 
 
