@@ -20,11 +20,11 @@ The cleaned dataset contains 2,920 observations, with no missing values.
 
 ## 3. How to Run the Notebook
 
-1. Download the Jupyter notebook (`midterm_starter.ipynb`) and cleaned Excel dataset from this repository
+1. Download the Jupyter notebook and cleaned Excel dataset from this repository
 2. Open the notebook in Google Colab
 3. Upload the Excel dataset to the Colab session
-4. Run all cells in order using **Runtime → Run all**
-
+4. Run all cells in order
+   
 ## 4. Headline Finding
 
 One of the main limitations of the analysis is that the regression results can help to establish correlation, not causality. Additionally, my dataset only includes the Hugh L. Carey Tunnel and the Queens Midtown Tunnel. It does not include other tunnels that are a part of New York City’s congestion pricing initiative, such as the Lincoln Tunnel and the Holland Tunnel. My results are limited in their scope and cannot be generalized to all changes to traffic entering Manhattan. 
