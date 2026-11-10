@@ -10,8 +10,6 @@ My hypothesis is that congestion pricing is associated with a reduction in traff
 
 **Dataset:** MTA Bridges and Tunnels Hourly Crossings: Beginning 2019
 
-**Source:** New York State Open Data
-
 **URL:** [https://data.ny.gov/Transportation/MTA-Bridges-and-Tunnels-Hourly-Crossings-Beginning/ebfx-2m7v](https://data.ny.gov/Transportation/MTA-Bridges-and-Tunnels-Hourly-Crossings-Beginning/ebfx-2m7v/about_data)
 
 The analysis uses six months of data before and after January 5, 2025. The original MTA data was aggregated into daily traffic counts for two tunnels and four vehicle classes: cars, buses, trucks, and motorcycles.
